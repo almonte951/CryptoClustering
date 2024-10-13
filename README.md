@@ -26,9 +26,11 @@ Create a DataFrame using PCA data and repeat the elbow method to find the best k
 ## 4. Visualize and Compare Results
 Use hvPlot to create composite plots comparing:
 
-Elbow curves from the original and PCA data.
+## Elbow curves from the original and PCA data.
+![elbow_curves](https://github.com/almonte951/CryptoClustering/blob/main/Images/elbow%20curves.png)
 
-Cluster results from the original and PCA data.
+## Cluster results from the original and PCA data.
+![clustering_results](https://github.com/almonte951/CryptoClustering/blob/main/Images/clustering%20results.png)
 
 ## Conclusion
 By using both the original scaled data and PCA-reduced data, you can compare how clustering performance changes when using fewer features. This process helps optimize k-means clustering and provides insights into the importance of feature reduction when analyzing complex data like cryptocurrencies.
